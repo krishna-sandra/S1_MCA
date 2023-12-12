@@ -20,7 +20,14 @@
 </tr>
 <tr>
 <th>SEMESTER</th>
-<td><input type="text" name="semester"required/> </td>
+<td><select name='semester'>
+    <option>SELECT</option>
+    <?php
+    for($i=1;$i<7;$i++)
+    {
+        echo "<option>".$i."</option>";
+    }
+    ?> </td>
 </tr>
 
 <tr>

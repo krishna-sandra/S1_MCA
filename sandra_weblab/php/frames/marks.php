@@ -43,7 +43,14 @@ echo "<option>".$row['ktuid'] . "<br></option>";
 
 <tr>
 <td width=250px>SEMESTER</td>
-<td><input type='text' name='semester'></td>
+<td><select name='semester'>
+    <option>SELECT</option>
+    <?php
+    for($i=1;$i<7;$i++)
+    {
+        echo "<option>".$i."</option>";
+    }
+    ?>
 </tr>
 
 <tr>
