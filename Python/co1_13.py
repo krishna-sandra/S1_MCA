@@ -1,0 +1,5 @@
+col=input("Enter colors with comma operation:")
+x=col.split(",")
+y=len(x)
+print(x)
+print("The first and last colours are",x[0],"and",x[y-1])
