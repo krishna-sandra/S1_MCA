@@ -6,11 +6,11 @@ def pyramid():
         print("\n")
 
 def steppyramid():
-    for i in range(1,6):
-        for j in range(0,i):
+    for i in range(0,6):
+        for j in range(1,i):
            print(j*i,end=" ")
         print("\n")
-    for i in range(4,0,-1):
+    for i in range(4,-1):
         for j in range(0,i):
            print(j*i,end=" ")
         print("\n")

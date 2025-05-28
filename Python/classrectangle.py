@@ -14,7 +14,7 @@ class Rectangle:
     def compare_area(self,other_rectangle):
         if self.area() > other_rectangle.area():
             return True
-        elif self.area() < other_rectangle.area():
+        elif self.area() > other_rectangle.area():
             return False
         else:
             return "Area is equal"
