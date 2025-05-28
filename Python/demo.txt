@@ -1,6 +1,5 @@
-from graphics.graphics_3D.cuboid import *
-l=int(input("Enter the length of the cuboid : "))
-b=int(input("Enter the breadth of the cuboid : "))
-h=int(input("Enter the breadth of the cuboid : "))
-print("Area of ractangle : ",area(l,b,h))
-print("peremeter of ractangle : ",peremeter(l,b,h))
+Hello Guys Welcome to this Python crash Course Conducted
+by the Association of Department of Computer Application(ASCA)
+You will learn about:
+Python classes 
+File Handling
